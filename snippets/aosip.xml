@@ -14,6 +14,10 @@
   <remote  name="devices"
            fetch="https://github.com/AOSiP-Devices"
            revision="refs/heads/ten" />
+  
+  <remote  name="dump"
+           fetch="https://github.com/narg-dump"
+           revision="aosip-10" />
 
   <!-- AOSiP -->
   <!-- General -->
@@ -151,5 +155,12 @@
   <project path="vendor/overlay" name="platform_vendor_overlay" remote="aosip" />
   <project path="vendor/pixelgapps" name="TeamIllusion/platform_vendor_pixelgapps" remote="gitlab" revision="ten" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="aosip" />
+
+  <!-- Lavender -->
+  <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="dump" revision="aosip-10" />
+  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="dump" revision="aosip-10" />
+  <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="dump" revision="aosip-10" />
+  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="dump" revision="aosip-10" />
+  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="dump" revision="aosip-10" />
 </manifest>
 
