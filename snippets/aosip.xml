@@ -126,6 +126,7 @@
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="aosip" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="aosip" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="aosip" />
+  <project path="packages/apps/XiaomiParts" name="packages_apps_XiaomiParts" remote="dump" revision="aosip-10" />
 
   <!-- Platform -->
   <project path="platform_testing" name="platform_platform_testing" remote="aosip" />
