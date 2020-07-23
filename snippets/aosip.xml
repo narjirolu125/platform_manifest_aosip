@@ -14,7 +14,11 @@
   <remote  name="devices"
            fetch="https://github.com/AOSiP-Devices"
            revision="refs/heads/ten" />
-  
+
+  <remote  name="narg"
+           fetch="https://github.com/narjirolu125"
+           revision="ten" />
+
   <remote  name="dump"
            fetch="https://github.com/narg-dump"
            revision="aosip-10" />
@@ -25,7 +29,7 @@
   <project path="bionic" name="platform_bionic" remote="aosip" />
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="aosip" />
   <project path="development" name="platform_development" remote="aosip" />
-  <project path="manifest" name="platform_manifest" remote="aosip" />
+  <project path="manifest" name="platform_manifest_aosip" remote="narg" revision="ten" />
 
   <!-- Build -->
   <project path="build/blueprint" name="platform_build_blueprint" remote="aosip" />
