@@ -14,7 +14,8 @@ repo init -u git://github.com/narjirolu125/platform_manifest_aosip.git -b ten
 ```
 Then to sync up:
 ```bash
-repo sync --force-sync --no-tags --no-clone-bundle
+repo sync --current-branch --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -jx
+(the x on jx it's the amount of cores you have)
 ```
 
 Building the source
